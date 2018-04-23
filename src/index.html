@@ -5,11 +5,13 @@
     <title>careship-atm</title>
   </head>
   <body>
-    <h2> Enter the withdrawal amount in dollars.
+    <h1> Enter the withdrawal amount in dollars.</h1>
     <form action="withdraw" method="post">
       $<input type="number" name="amount">
       <br>
       <input type="submit" value="Withdraw"></input>
     </form>
+
+    <h4> You may also query the atm by dispatching a get request to:<br> http://careship-atm.herokuapp.com/withdraw/*integer amount here*</h4>
   </body>
 </html>
