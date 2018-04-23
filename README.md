@@ -8,5 +8,5 @@
 
 <p>Testing uses Mocha, Chai, and Babel for ES6 transpiling.</p>
 
-<p>Use it on <a href="http://careship-atm.herokuapp.com/">Heroku</a>. To interact with the API endpoint endpoint directly, simply dispatch a get request to http://careship-atm.herokuapp.com/withdraw/*integeramounthere* </p>
+<p>Use it on <a href="http://careship-atm.herokuapp.com/">Heroku</a>. To interact with the API endpoint directly, dispatch a get request to http://careship-atm.herokuapp.com/withdraw/*integeramounthere* </p>
 
