@@ -8,6 +8,4 @@ app.get('/withdraw/:amount', (req, res) => {
   res.send(result);
 })
 
-console.log("output", atm("429496731590"));
-
-app.listen(8080, console.log("server is listening"));
+app.listen(process.env.PORT || 8080, console.log("server is listening"));
