@@ -6,5 +6,5 @@ Uses BigInteger.js by Peter Olson to handle very large numbers. A significant wo
 
 Testing uses Mocha, Chai, and Babel for ES6 transpiling.
 
-Use it on Heroku. To interact with the API endpoint endpoint directly, simply dispatch a get request to http://careship-atm.herokuapp.com/withdraw/*integeramounthere*
+Use it on <a href="http://careship-atm.herokuapp.com/">Heroku</a>. To interact with the API endpoint endpoint directly, simply dispatch a get request to http://careship-atm.herokuapp.com/withdraw/*integeramounthere*
 
